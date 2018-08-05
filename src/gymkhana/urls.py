@@ -24,6 +24,7 @@ admin.site.site_header = 'Gymkhana Administration'
 admin.site.index_title = 'Control Panel'
 
 urlpatterns = [
+    url(r'^', include('social_django.urls', namespace='social')),
     url(
         '^login/$',
         LoginView.as_view(template_name='forum/login.html'), name='login'

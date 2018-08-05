@@ -12,3 +12,4 @@ django-webpack-loader
 flake8
 psycopg2
 django-decouple==2.1
+social-auth-app-django==2.1.0
